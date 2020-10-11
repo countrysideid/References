@@ -146,6 +146,10 @@ run resource file: ./resource
 
 # sudo apt update && sudo apt upgrade &&:
 
+screen -ls # list all the screens
+screen -r .... 
+screen al+a al+d # detach the current screen 
+screen -X -S [session # you want to kill] kill # kill the detached session [session # you want to kill]
 
 
   
