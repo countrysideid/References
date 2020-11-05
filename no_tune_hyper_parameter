@@ -4,4 +4,9 @@ def parse_arguments():
   p.add_argument('-batch_size', type = int, default = 32, help = 'number of batch_size for train')
   p.add_argument('-lr', type = float, default = 0.0001, help = 'initial learning rate')
   p.add_argument('-grad_clip', type = float, default = 10.0, help = 'in case of gradient explosion')
+  
   return p.parse_args()
+
+
+def '__name__' == '__main__':
+  
